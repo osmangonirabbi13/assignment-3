@@ -29,7 +29,7 @@
 <body class="sora-font">
     <header>
         <nav class="w-full bg-[#FFF9F4] sora-font">
-            <div class="flex justify-between items-center max-w-7xl mx-auto py-3">
+            <div class="flex justify-between items-center mx-10 lg:max-w-7xl lg:mx-auto py-3">
                 <div class="flex items-center gap-3 ">
                     <img src="./assets/logo-header.png" alt="">
                     <h3 class="text-2xl text-[#111111] hidden lg:inline-block">Browse <span class="text-[#FFDC26]">4</span> Pets
@@ -54,11 +54,12 @@
             <div class="border-b border-[#111111] lg:hidden"></div>
         </nav>
             <!-- header-section -->
-            <div class="max-w-7xl mx-auto">
+            <div class="mx-10 lg:max-w-7xl lg:mx-auto">
                 <div class=" mt-16">
                     <h2 class="adlam-display-regular  text-5xl leading-normal lg:w-[672px]">Pamper Your Pet,<br> Because They      Deserve <br> the Bes</h2>
                     <p class="pt-4 lg:w-[672px]  text-lg">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="px-8 py-3 rounded-lg mr-3 mt-6 bg-[#FFDC26] text-black">Find a pet</button>
+                <button class="px-8 py-3 rounded-lg mr-3 mt-6 bg-[#FFDC26] text-black ">Find a pet</button>
+                <div class="w-[100px] h-[50px] rounded-full animate-pulse bg-orange-500 mt-5"></div>
                 </div>
                 <div class="absolute mt-[-100px] -z-10 lg:mt-[-350px]" >
                     <img src="./assets/cat-big.png" alt="">
@@ -67,7 +68,7 @@
     </header>
     <main>
         <!-- Browse By Categories section  -->
-        <section class="mt-[200px] lg:mt-[480px] max-w-7xl mx-auto ">
+        <section class="mt-[200px] lg:mt-[480px] lg:max-w-7xl lg:mx-auto mx-10">
             <h2 class="adlam-display-regular text-4xl  ">Browse By Categories</h2>
             <div class="grid grid-cols-2 lg:grid-cols-6 gap-2">
                 <div class="bg-[#F9DF8A]  mt-10 justify-items-center text-center pt-6 rounded-xl">
@@ -117,10 +118,10 @@
         <!-- Browse By Categories section end -->
         <!-- Trending Pet Products section start -->
         <section class="w-full bg-[#FFF9F4] mt-24">
-            <div class="lg:max-w-7xl lg:mx-auto pt-24">
+            <div class="lg:max-w-7xl lg:mx-auto mx-10 pt-24">
                 <h2 class="adlam-display-regular text-3xl">Trending Pet Products</h2>
             </div>
-            <div class="pb-7 lg:pb-28 lg:max-w-7xl lg:mx-auto mt-12 grid grid-cols-2  lg:grid-cols-5 gap-4">
+            <div class="pb-7 mx-10 lg:pb-28 lg:max-w-7xl lg:mx-auto mt-12 grid grid-cols-2  lg:grid-cols-5 gap-4">
                 <div class="col-span-2 row-span-3 h-[380px]  bg-[#F9DF8A] relative lg:col-span-2 lg:row-span-3 ">
                     <h2 class="adlam-display-regular text-3xl pt-12 pl-8">T- Shirt For Dogs</h2>
                     <p class="pt-6 pl-8">Discover a world of treats, toys, and essentials handpicked for </p>
@@ -220,8 +221,53 @@
             </div>
         </section>
         <!-- Trending Pet Products section end -->
+        <section class="lg:max-w-7xl lg:mx-auto mx-10 grid grid-cols-3 mt-16">
+            
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure>
+                <img
+                    src="./assets/bird.png.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure>
+                <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure>
+                <img
+                    src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+                </div>
+            </div>
+        </section>
         <!-- Everyday low Price section start -->
-        <section class=" lg:max-w-7xl lg:mx-auto  mt-24">
+        <section class=" lg:max-w-7xl lg:mx-auto mb-[500px] mx-10 lg:mb-96  mt-24">
             <h2 class="adlam-display-regular text-3xl">Everyday low Price</h2>
             <div class=" grid grid-cols-1 lg:grid-cols-3 gap-6 mt-10">
                 <div class=" h-[350px] lg:h-auto lg:w-auto bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] col-span-2 relative  rounded-xl ">
@@ -235,19 +281,67 @@
                         <img class="flex pt-60 h-[550px] lg:h-[700px]" src="./assets/cute-dog-mid.png" alt="">
                     </div>
                 </div>
-                <div class="h-[350px] lg:h-auto lg:w-auto bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] ml-6 relative  rounded-xl">
+                <div class="h-[350px] lg:h-auto lg:w-auto bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] lg:ml-6 ml-1 -mr-[18px] -mx-10  relative  rounded-xl">
                     <h2 class=" pt-16 pl-12  lg:pt-16 lg:pl-12 adlam-display-regular text-3xl ">T-Shirt for Dogs</h2>
                     <h2 class="pt-6 pl-12 lg:pt-8 lg:pl-12 adlam-display-regular text-5xl text-[#FFDC26]">$7.99</h2>
-                    <div class="absolute bottom-0 right-0">
+                    <div class="absolute bottom-0 right-0 ">
                         <img src="./assets/cute-pet-small.png" alt="">
                     </div>
                 </div>
             </div>
             <!-- Everyday low Price section start  End -->
         </section>
+        
+        <section class=" lg:max-w-7xl lg:mx-auto lg:mt-36 bg-[#FFF9F4]" >
+            <div class=" bg-[#FFF9F4] absolute mx-8 lg:mx-0 -mt-[420px] px-3 lg:px-0 lg:-mt-60 lg:w-[1260px] flex items-center flex-col lg:gap-28 lg:flex-row pt-9">
+                <div class="lg:pl-20">
+                    <img src="./assets/cute-pet-mid.png" alt="">
+                </div>
+                <div class="items-center lg:flex-start lg:pt-14">
+                    <h2 class="adlam-display-regular text-3xl text-center mt-4 lg:mt-0 lg:text-left">Get Pawsome News!</h2>
+                    <p class="text-lg text-[#111111] pt-5 text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="w-4/5 h-[67px] rounded-xl ml-6 mt-9 lg:ml-0 placeholder:pl-4 " type="email" name="" id="" placeholder="Enter email...."><br>
+                    <button class="px-8 py-2 rounded-lg mr-3 bg-[#FFDC26] ml-[100px] mb-3 lg:ml-0 mt-9 ">Subscribe</button>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    
+    <footer class="w-full bg-yellow-200 ">
+        <div class="lg:max-w-7xl lg:mx-auto flex pt-[365px] pl-6 lg:pl-0 lg:pt-0 flex-col h-[700px] lg:flex-row lg:pb-20 lg:items-end lg:justify-between lg:content-end lg:h-[665px]">
+            <div class="">
+                <div class=" flex mb-4">
+                        <img  src="./assets/logo-footer.png" alt="">
+                        
+                </div>
+                <div class="w-[426px]">
+                    <p> Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+                </div>
+        </div>
+        <div class=" ">
+            <div class="">
+                <div class="">
+                    <ul>
+                        <li><a class=" flex mb-4 mt-4" href="#">Find a pet</a></li>
+                        <li><a class=" flex mb-4" href="#">Breeds</a></li>
+                        <li><a class=" flex mb-4" href="#">Contact us</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="">
+                <h2 class=" flex mb-4 text-lg font-bold">Follow Us</h2>
+                <div class=" flex gap-5 text-2xl">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
     </footer>
 </body>
 </html>
